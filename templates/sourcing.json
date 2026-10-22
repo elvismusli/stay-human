@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "country": "XX",
+  "city": "your city",
+  "currency": "XXX",
+  "checked_on": null,
+  "notes": "replace placeholders; preserve unknown values as null",
+  "items": [
+    {
+      "component_id": "component-id",
+      "model": null,
+      "url": null,
+      "price": null,
+      "status": "candidate",
+      "checked_on": null,
+      "evidence": null,
+      "notes": "describe compatibility and delivery gaps"
+    }
+  ]
+}

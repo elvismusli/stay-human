@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "country": "ID",
+  "city": "Bali",
+  "currency": "IDR",
+  "checked_on": null,
+  "notes": "initial research scaffold; no seller, price, stock, delivery, or compatibility has been verified.",
+  "items": [
+    {
+      "component_id": "recliner",
+      "model": null,
+      "url": null,
+      "price": null,
+      "status": "candidate",
+      "checked_on": null,
+      "evidence": null,
+      "notes": "awaiting contributor details; verify all component requirements"
+    },
+    {
+      "component_id": "desk",
+      "model": null,
+      "url": null,
+      "price": null,
+      "status": "candidate",
+      "checked_on": null,
+      "evidence": null,
+      "notes": "awaiting contributor details; verify all component requirements"
+    },
+    {
+      "component_id": "laptop-arm",
+      "model": null,
+      "url": null,
+      "price": null,
+      "status": "candidate",
+      "checked_on": null,
+      "evidence": null,
+      "notes": "awaiting contributor details; verify all component requirements"
+    },
+    {
+      "component_id": "monitor-arm",
+      "model": null,
+      "url": null,
+      "price": null,
+      "status": "candidate",
+      "checked_on": null,
+      "evidence": null,
+      "notes": "awaiting contributor details; verify all component requirements"
+    },
+    {
+      "component_id": "arm-support",
+      "model": null,
+      "url": null,
+      "price": null,
+      "status": "candidate",
+      "checked_on": null,
+      "evidence": null,
+      "notes": "awaiting contributor details; verify all component requirements"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "api_version": 1,
+  "name": "stay-human",
+  "entrypoint": "python3 sh.py",
+  "runtime": "python >= 3.10; standard library only",
+  "instructions": "AGENTS.md",
+  "contract": "docs/agent-contract.md",
+  "canonical_repository": "https://github.com/matskevich/stay-human",
+  "commands": {
+    "capabilities": "discover this interface without network or credentials",
+    "list": "return only id, category, status and summary; no full recipes",
+    "show <recipe-id>": "requirements only; no guide, sourcing or reports",
+    "plan <recipe-id> --country <CC> --city <city> --budget <number> --currency <CCC>": "return adaptation inputs and unresolved checks; no buying or live search",
+    "init recipe --id <recipe-id> [--write]": "preview or create a new experimental recipe",
+    "init sourcing --recipe <recipe-id> --id <variant-id> --country <CC> --city <city> --currency <CCC> [--write]": "preview or create an unverified local sourcing variant",
+    "init report --recipe <recipe-id> --id <report-id> [--write]": "preview or create a structured draft build report",
+    "validate": "check local structured content and evidence references",
+    "show <recipe-id> --section sourcing [--country <CC>] [--city <city>]": "load only relevant local product records",
+    "show <recipe-id> --section reports": "load build reports on demand",
+    "show <recipe-id> --section guide": "optional prose, never loaded by default"
+  },
+  "output": {
+    "default": "json",
+    "envelope": [
+      "api_version",
+      "ok",
+      "data",
+      "error"
+    ],
+    "markdown_opt_in": "plan --format markdown",
+    "exit_codes": {
+      "0": "success",
+      "2": "usage, validation, or data error"
+    }
+  },
+  "writes": "local init only, opt-in --write, no overwrite; all other commands read-only",
+  "network": "none; git hosting and product research are separate, explicitly controlled steps",
+  "identity": "recipe id remains stable; pin a git commit for reproducibility",
+  "contribution": "fork -> branch -> init/edit -> validate -> tests -> review diff -> commit -> push -> pull request -> maintainer review",
+  "context": "progressive disclosure; compact JSON; never recursively ingest the repository"
+}

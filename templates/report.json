@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "recipe_id": "your-recipe-id",
+  "status": "draft",
+  "date": null,
+  "country": null,
+  "city": null,
+  "configuration": null,
+  "actual_use": null,
+  "limitations": null,
+  "costs": null,
+  "changes": null,
+  "sources": [],
+  "credits": null
+}

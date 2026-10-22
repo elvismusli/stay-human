@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "zero-gravity",
+  "title": "zero-gravity workspace",
+  "category": "workspace",
+  "status": "experimental",
+  "summary": "an adaptable reclined workstation specification; the bali product list is awaiting an original build contribution.",
+  "components": [
+    {
+      "id": "recliner",
+      "name": "reclining chair with leg and head support",
+      "required": true,
+      "requirements": [
+        "record reclined footprint in cm and manufacturer load limit in kg",
+        "verify stability through the full intended range",
+        "check access, exit space, and head support for the user"
+      ]
+    },
+    {
+      "id": "desk",
+      "name": "height-adjustable desk or suitable support structure",
+      "required": true,
+      "requirements": [
+        "record minimum and maximum height in cm",
+        "verify the mounting surface and rated load for the proposed arms",
+        "check that the frame does not collide with the recliner"
+      ]
+    },
+    {
+      "id": "laptop-arm",
+      "name": "adjustable arm and retained laptop tray",
+      "required": true,
+      "requirements": [
+        "record laptop plus tray mass in kg and compatible load range",
+        "verify the lowest usable tray position, reach, and tilt",
+        "confirm the laptop is mechanically retained in the intended orientation"
+      ]
+    },
+    {
+      "id": "monitor-arm",
+      "name": "adjustable monitor arm",
+      "required": true,
+      "requirements": [
+        "record monitor plus adapters mass in kg and mount pattern in mm",
+        "verify reach and tilt against the actual reclined eye position",
+        "confirm manufacturer permits the intended orientation"
+      ]
+    },
+    {
+      "id": "arm-support",
+      "name": "armrest pads or other suitable forearm support",
+      "required": false,
+      "requirements": [
+        "check dimensions and interference during entry and exit",
+        "identify a removable material suitable for the local climate"
+      ]
+    }
+  ],
+  "evidence": []
+}

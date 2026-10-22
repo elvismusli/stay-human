@@ -1,0 +1,17 @@
+name: propose a setup or local variant
+description: share an idea, recipe, or sourcing variant
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: details
+      description: describe the purpose, country/city, components or routine, budget/currency, sources, and what remains unverified.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: sharing
+      options:
+        - label: i have removed private information and have permission to share the included material under the project content license.
+          required: true

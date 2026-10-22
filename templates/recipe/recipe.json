@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "your-recipe-id",
+  "title": "your recipe title",
+  "category": "workspace",
+  "status": "experimental",
+  "summary": "what this helps someone do and what remains unknown",
+  "components": [
+    {
+      "id": "component-id",
+      "name": "functional component name",
+      "required": true,
+      "requirements": [
+        "specific measurable requirement"
+      ]
+    }
+  ],
+  "evidence": []
+}

@@ -1,0 +1,17 @@
+name: share a build report
+description: tell us what you actually tried
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: details
+      description: describe exact components, dates, costs/currency, actual use duration, what worked, failures, changes, and public evidence.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: sharing
+      options:
+        - label: i have removed private information and have permission to share the included material under the project content license.
+          required: true
