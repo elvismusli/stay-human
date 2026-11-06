@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "recipe_id": "zero-gravity",
+  "status": "draft",
+  "date": "2026-10-05",
+  "country": "ID",
+  "city": "Bali",
+  "configuration": "height-adjustable desk with two adjustable arms clamped to it: one carrying a laptop holder tray, the other a monitor and slightly longer; used with a folding recliner. exact models are listed as candidates in sourcing/ID-bali.json; which arm carries the laptop tray and which the monitor is still to be confirmed by the builder.",
+  "actual_use": null,
+  "limitations": "first assembly on 2026-10-05: the laptop arm did not lower as far as the builder wanted, and forearm pads were still being looked for. an upgraded version was built later; its changes, the measured geometry and the use duration are not yet documented.",
+  "costs": "builder reported about IDR 5,000,000 for the whole build including the desk (2026-10-05). not itemised; delivery and tax treatment unknown. listing prices for the supplied items are in sourcing/ID-bali.json.",
+  "changes": "an upgraded version exists; what changed is not yet documented.",
+  "sources": [
+    "https://www.tokopedia.com/northbayouofficial/nb-north-bayou-f100a-22-to-35-inch-gas-strut-tv-monitor-bracket-f-100a",
+    "https://www.tokopedia.com/tokobaruofficial/oximus-zd1104-desk-clamp-bracket-monitor-17-32-inch-1731627855324284630",
+    "https://www.tokopedia.com/proxtech/north-bayou-fp2-10-17-laptop-desktop-holder-notebook-computer-mount-stand-laptop-clamp-accessories-1733977733759468871",
+    "https://www.tokopedia.com/funbear-outdoorshop/fun-bear-kursi-lipat-outdoor-zero-gravity-kursi-malas-santai-adjustable-tahan-150kg-kursi-jemur-lipat-portable-1734628664591615216-1734628781685310704",
+    "https://www.tokopedia.com/cicido-indonesia/cicido-bantal-mobil-zero-gravity-sandaran-kepala-leher-pengemudi-car-headrest-support-cooling-memory-foam-1733207854700070071",
+    "https://www.tokopedia.com/carvihome/carvi-elbow-and-armrest-pillow-arm-rest-sandaran-tangan-kursi-kerja-dan-gaming-1729880417414644771",
+    "https://www.tokopedia.com/wannafitofficial/barbell-pad-foam-wannalife-pelindung-squad-squat-barbel-busa-pundak-leher-wannafit-hitam-7f09d",
+    "https://www.tokopedia.com/waldani/sandaran-tangan-meja-kerja-komputer-arm-rest-pad-91526-plastik-furniture-1729616722004575774"
+  ],
+  "credits": null
+}
