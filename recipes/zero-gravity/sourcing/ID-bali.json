@@ -4,7 +4,7 @@
   "city": "Bali",
   "currency": "IDR",
   "checked_on": "2026-11-06",
-  "notes": "builder-supplied tokopedia links, read from the public listings on 2026-11-06. prices are listing prices in IDR on that date after seller discounts, not necessarily what was paid; delivery and tax not included. no desk model has been supplied yet. all items stay 'candidate' until the builder confirms purchase and fit. no compatibility has been verified.",
+  "notes": "tokopedia listing prices in IDR on 2026-11-06 after seller discounts, not necessarily what was paid.",
   "items": [
     {
       "component_id": "desk",
@@ -14,7 +14,7 @@
       "status": "candidate",
       "checked_on": null,
       "evidence": null,
-      "notes": "awaiting contributor details; verify all component requirements"
+      "notes": "a height-adjustable desk is better, so you can get out of the setup easily. place the recliner beside the desk, not rolled under it, otherwise getting up is awkward."
     },
     {
       "component_id": "recliner",
@@ -24,7 +24,7 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. folding recliner, textilene fabric on carbon steel frame, black. listing price after a 6% discount (591600 before); stock 9 on check date; listing unit weight 8.5 kg. the listing url mentions a 150 kg limit, but the product text read on the check date does not state a load limit, so verify before relying on it. reclined footprint and exit space not measured."
+      "notes": "place it beside the desk, not rolled under it; otherwise getting up is awkward."
     },
     {
       "component_id": "recliner",
@@ -34,7 +34,17 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. head and neck support cushion (memory foam car headrest). 'headrest' variant price after a 33% discount (660000 before); that variant was out of stock on the check date. the seller also lists lumbar, headrest plus lumbar, and headrest plus lower lumbar variants. filed under recliner because the recipe has no separate head-support component."
+      "notes": "head and neck support."
+    },
+    {
+      "component_id": "laptop-arm",
+      "model": "Oximus ZD1104 Desk Clamp Bracket Monitor 17\" - 32\" Inch",
+      "url": "https://www.tokopedia.com/tokobaruofficial/oximus-zd1104-desk-clamp-bracket-monitor-17-32-inch-1731627855324284630",
+      "price": 170000,
+      "status": "candidate",
+      "checked_on": "2026-11-06",
+      "evidence": null,
+      "notes": "arm for the laptop tray. lets the laptop sit below desk level, right over the legs."
     },
     {
       "component_id": "laptop-arm",
@@ -44,7 +54,7 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. laptop tray for 10-17 inch laptops. the seller states it is the tray only and does not include the arm or the laptop, so it needs a separate arm (see the monitor-arm entries). black variant out of stock on the check date; listing weight 1.5 kg; box 36 x 17.5 x 5.5 cm. lowest usable tray height and device retention not measured."
+      "notes": "laptop tray. mounted on the oximus arm."
     },
     {
       "component_id": "monitor-arm",
@@ -54,17 +64,7 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. gas-strut desk arm. listing specs: screens 22-35 inch, load 3-12 kg, vertical travel 345 mm, extension 700 mm, vesa 75x75 to 100x100 mm. price after a 1% discount (732500 before); stock 9849 on check date. whether this arm carries the monitor or the laptop tray in the original build is to be confirmed by the builder."
-    },
-    {
-      "component_id": "monitor-arm",
-      "model": "Oximus ZD1104 Desk Clamp Bracket Monitor 17\" - 32\" Inch",
-      "url": "https://www.tokopedia.com/tokobaruofficial/oximus-zd1104-desk-clamp-bracket-monitor-17-32-inch-1731627855324284630",
-      "price": 170000,
-      "status": "candidate",
-      "checked_on": "2026-11-06",
-      "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. desk-clamp monitor arm. listing specs: 17-32 inch screens, max 9 kg per arm, vesa 75x75 or 100x100 mm, tilt +/-45 degrees, 90 degree rotation, 360 degree swivel, clamp opening up to 8 cm, unit weight 3 kg. price after a 15% discount (199000 before); stock 100 on check date. whether this arm carries the monitor or the laptop tray in the original build is to be confirmed by the builder."
+      "notes": "monitor arm."
     },
     {
       "component_id": "arm-support",
@@ -74,7 +74,7 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. set of 2 memory-foam elbow pads with washable velvet cover and velcro fastening, 25.5 x 7.5 x 3 cm, listing weight 300 g. stock 95 on check date. mounting position on the setup not documented."
+      "notes": "forearm pads, set of 2."
     },
     {
       "component_id": "arm-support",
@@ -84,7 +84,7 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. plastic desk-edge forearm rest pad, black, listing weight 800 g. price after a 47% discount (89600 before); stock 729 on check date. mounting position on the setup not documented."
+      "notes": "desk-edge forearm rest pad."
     },
     {
       "component_id": "arm-support",
@@ -94,7 +94,7 @@
       "status": "candidate",
       "checked_on": "2026-11-06",
       "evidence": null,
-      "notes": "listed by the builder as part of the bali build; purchase, fit and which build version it belongs to are not yet verified in this record. foam padding sold as a barbell pad, 40 cm x 8.5 cm, 3 cm hole diameter, no strap, listing weight 300 g. price after a 66% discount (160000 before); out of stock on the check date. what it supports in this build (forearm, neck or other) is to be confirmed by the builder."
+      "notes": "foam pad for the legs on the recliner: when reclined, the chair's crossbar presses on the legs."
     }
   ]
 }
